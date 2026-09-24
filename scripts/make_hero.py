@@ -1,0 +1,118 @@
+from pathlib import Path
+
+OUTPUT = Path("assets/hero-terminal.svg")
+
+WIDTH = 1200
+HEIGHT = 430
+
+
+def escape_xml(value):
+    return (
+        str(value)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def build_svg():
+    lines = [
+        "Building intelligent applications",
+        "Engineering scalable web platforms",
+        "Creating real-time computer vision systems",
+        "Developing AI-powered solutions",
+    ]
+
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">',
+        "<defs>",
+        "<linearGradient id=\"bgGlow\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">",
+        "<stop offset=\"0%\" stop-color=\"#0b1220\" />",
+        "<stop offset=\"58%\" stop-color=\"#0f172a\" />",
+        "<stop offset=\"100%\" stop-color=\"#040b16\" />",
+        "</linearGradient>",
+        "<linearGradient id=\"accent\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">",
+        "<stop offset=\"0%\" stop-color=\"#38bdf8\" />",
+        "<stop offset=\"50%\" stop-color=\"#a78bfa\" />",
+        "<stop offset=\"100%\" stop-color=\"#34d399\" />",
+        "</linearGradient>",
+        "<pattern id=\"grid\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\">",
+        "<path d=\"M 24 0 L 0 0 0 24\" fill=\"none\" stroke=\"#1f2a3a\" stroke-width=\"0.8\" opacity=\"0.7\" />",
+        "</pattern>",
+        "</defs>",
+        f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#bgGlow)" rx="26" />',
+        f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#grid)" opacity="0.75" rx="26" />',
+        '<g opacity="0.18">',
+        '<path d="M 820 45 L 1130 45" stroke="#67e8f9" stroke-width="1.2" />',
+        '<path d="M 860 88 L 1160 88" stroke="#a78bfa" stroke-width="1.2" />',
+        '</g>',
+        '<rect x="40" y="28" width="1120" height="374" rx="24" fill="#08131d" stroke="#1e2d3d" stroke-width="1.1" />',
+        '<rect x="40" y="28" width="1120" height="42" rx="24" fill="#0d1724" stroke="#1e2d3d" stroke-width="1.1" />',
+        '<circle cx="74" cy="49" r="6" fill="#f87171" />',
+        '<circle cx="95" cy="49" r="6" fill="#fbbf24" />',
+        '<circle cx="116" cy="49" r="6" fill="#4ade80" />',
+        '<text x="148" y="55" font-size="13" font-family="monospace" fill="#94a3b8">simon@github ~/profile --build</text>',
+        '<rect x="70" y="102" width="1060" height="2" fill="url(#accent)" opacity="0.7" />',
+        '<rect x="70" y="106" width="10" height="2" fill="#67e8f9" opacity="0.9">',
+        '<animate attributeName="x" values="70;1070;70" dur="3.8s" repeatCount="indefinite" />',
+        '</rect>',
+        '<g>',
+        '<circle cx="1040" cy="180" r="74" fill="#0f172a" stroke="#2dd4bf" stroke-width="1" opacity="0.8" />',
+        '<circle cx="1040" cy="180" r="42" fill="none" stroke="#67e8f9" stroke-width="1" opacity="0.6">',
+        '<animateTransform attributeName="transform" type="rotate" from="0 1040 180" to="360 1040 180" dur="18s" repeatCount="indefinite" />',
+        '</circle>',
+        '<path d="M 1017 180 L 1030 166 L 1058 194 L 1071 180" stroke="#67e8f9" stroke-width="2" fill="none" opacity="0.8" />',
+        '</g>',
+        '<text x="80" y="176" font-size="26" font-family="monospace" fill="#7dd3fc">SIMON LEO ALEXANDER</text>',
+        '<text x="80" y="230" font-size="44" font-weight="700" font-family="Segoe UI, Arial, sans-serif" fill="#f8fafc">AI × FULL STACK DEVELOPER</text>',
+        '<g>',
+    ]
+
+    for index, text in enumerate(lines):
+        y = 285 + index * 26
+        svg.append(
+            f'<text class="line line{index + 1}" x="82" y="{y}" font-size="21" font-family="monospace" fill="#dbeafe" opacity="0">{escape_xml(text)}</text>'
+        )
+
+    svg.extend([
+        '<text x="82" y="350" font-size="18" font-family="monospace" fill="#a7f3d0">● AVAILABLE FOR SOFTWARE DEVELOPMENT OPPORTUNITIES</text>',
+        '<rect x="82" y="363" width="300" height="18" rx="9" fill="#0b1420" stroke="#1b3a35" stroke-width="1" />',
+        '<rect x="89" y="368" width="84" height="8" rx="4" fill="#34d399" opacity="0.9">',
+        '<animate attributeName="width" values="84;180;84" dur="2.8s" repeatCount="indefinite" />',
+        '</rect>',
+        '<text x="82" y="405" font-size="15" font-family="monospace" fill="#8ba0b6">~/build-intelligence</text>',
+        '<text x="1040" y="405" font-size="15" font-family="monospace" fill="#8ba0b6">status: active</text>',
+        '<g>',
+        '<rect x="1180" y="388" width="18" height="18" rx="9" fill="#34d399">',
+        '<animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />',
+        '</rect>',
+        '</g>',
+        '</g>',
+        '<style>',
+        '.line { animation: fadeCycle 14s ease-in-out infinite; }',
+        '.line1 { animation-delay: 0s; }',
+        '.line2 { animation-delay: 3.5s; }',
+        '.line3 { animation-delay: 7s; }',
+        '.line4 { animation-delay: 10.5s; }',
+        '@keyframes fadeCycle {',
+        '0%, 18% { opacity: 0; transform: translateY(8px); }',
+        '20%, 30% { opacity: 1; transform: translateY(0); }',
+        '34%, 100% { opacity: 0; transform: translateY(-8px); }',
+        '}',
+        '@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }',
+        '.cursor { animation: blink 1s infinite; }',
+        '</style>',
+        '<g>',
+        '<text x="400" y="350" font-size="20" font-family="monospace" fill="#7dd3fc">$</text>',
+        '<rect x="420" y="334" width="12" height="24" fill="#7dd3fc" class="cursor" />',
+        '</g>',
+        '</svg>',
+    ])
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text("\n".join(svg), encoding="utf-8")
+    print(f"Created: {OUTPUT}")
+
+
+if __name__ == "__main__":
+    build_svg()

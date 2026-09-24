@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+<linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#08131e" />
+<stop offset="100%" stop-color="#0f172a" />
+</linearGradient>
+</defs>
+<rect width="1200" height="620" rx="24" fill="url(#darkBg)" stroke="#253447" />
+<text x="52" y="52" font-size="22" font-family="monospace" font-weight="700" fill="#dbeafe">FEATURED PROJECTS</text>
+<text x="52" y="76" font-size="13" font-family="monospace" fill="#94a3b8">AI + full stack portfolio</text>
+<g>
+<rect x="50" y="90" width="330" height="170" rx="18" fill="#0b1724" stroke="#2dd4bf" stroke-width="1.2" />
+<rect x="68" y="110" width="60" height="4" rx="2" fill="#2dd4bf" />
+<text x="68" y="142" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">AI Pallet &amp; Case Detection</text>
+<text x="68" y="184" font-size="13" font-family="monospace" fill="#cbd5e1">Python · YOLO · OpenCV · PyAV · TensorRT · Flask · Electron · MongoDB</text>
+<line x1="68" y1="208" x2="360" y2="208" stroke="#1e293b" />
+<text x="68" y="238" font-size="15" font-family="monospace" fill="#2dd4bf">VIEW PROJECT →</text>
+</g>
+<g>
+<rect x="420" y="90" width="330" height="170" rx="18" fill="#0b1724" stroke="#60a5fa" stroke-width="1.2" />
+<rect x="438" y="110" width="60" height="4" rx="2" fill="#60a5fa" />
+<text x="438" y="142" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">AI Currency Object Detector</text>
+<text x="438" y="184" font-size="13" font-family="monospace" fill="#cbd5e1">Python · TensorFlow · OpenCV · Streamlit · Computer Vision</text>
+<line x1="438" y1="208" x2="730" y2="208" stroke="#1e293b" />
+<text x="438" y="238" font-size="15" font-family="monospace" fill="#60a5fa">VIEW PROJECT →</text>
+</g>
+<g>
+<rect x="790" y="90" width="330" height="170" rx="18" fill="#0b1724" stroke="#a78bfa" stroke-width="1.2" />
+<rect x="808" y="110" width="60" height="4" rx="2" fill="#a78bfa" />
+<text x="808" y="142" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">Plate Smart</text>
+<text x="808" y="184" font-size="13" font-family="monospace" fill="#cbd5e1">React · Vite · Tailwind · Product Experience</text>
+<line x1="808" y1="208" x2="1100" y2="208" stroke="#1e293b" />
+<text x="808" y="238" font-size="15" font-family="monospace" fill="#a78bfa">VIEW PROJECT →</text>
+</g>
+<g>
+<rect x="50" y="290" width="330" height="170" rx="18" fill="#0b1724" stroke="#f472b6" stroke-width="1.2" />
+<rect x="68" y="310" width="60" height="4" rx="2" fill="#f472b6" />
+<text x="68" y="342" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">My LifeLine</text>
+<text x="68" y="384" font-size="13" font-family="monospace" fill="#cbd5e1">React · Node.js · Express · MongoDB · Safety Systems</text>
+<line x1="68" y1="408" x2="360" y2="408" stroke="#1e293b" />
+<text x="68" y="438" font-size="15" font-family="monospace" fill="#f472b6">VIEW PROJECT →</text>
+</g>
+<g>
+<rect x="420" y="290" width="330" height="170" rx="18" fill="#0b1724" stroke="#f59e0b" stroke-width="1.2" />
+<rect x="438" y="310" width="60" height="4" rx="2" fill="#f59e0b" />
+<text x="438" y="342" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">Nexora 2026</text>
+<text x="438" y="384" font-size="13" font-family="monospace" fill="#cbd5e1">React · Vite · Tailwind · GSAP · Framer Motion</text>
+<line x1="438" y1="408" x2="730" y2="408" stroke="#1e293b" />
+<text x="438" y="438" font-size="15" font-family="monospace" fill="#f59e0b">VIEW PROJECT →</text>
+</g>
+<g>
+<rect x="790" y="290" width="330" height="170" rx="18" fill="#0b1724" stroke="#34d399" stroke-width="1.2" />
+<rect x="808" y="310" width="60" height="4" rx="2" fill="#34d399" />
+<text x="808" y="342" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">KwickStack</text>
+<text x="808" y="384" font-size="13" font-family="monospace" fill="#cbd5e1">React · Vite · Tailwind · Modern Web UI</text>
+<line x1="808" y1="408" x2="1100" y2="408" stroke="#1e293b" />
+<text x="808" y="438" font-size="15" font-family="monospace" fill="#34d399">VIEW PROJECT →</text>
+</g>
+</svg>

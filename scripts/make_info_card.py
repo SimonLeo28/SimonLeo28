@@ -3,21 +3,19 @@ from pathlib import Path
 
 OUTPUT = Path("assets/info-card.svg")
 
-
-WIDTH = 490
+WIDTH = 540
 HEIGHT = 430
-
 
 lines = [
     ("USER", "Simon Leo Alexander"),
     ("ROLE", "AI & Full Stack Developer"),
-    ("EDUCATION", "Information Science Engineering"),
-    ("FOCUS", "AI • Computer Vision • Web"),
+    ("LOCATION", "Bengaluru, Karnataka"),
+    ("STACK", "AI • Full Stack • Vision"),
     ("FRONTEND", "React • Next.js • Tailwind"),
     ("BACKEND", "Node.js • Express • Python"),
-    ("DATABASE", "MongoDB"),
-    ("AI/ML", "YOLO • OpenCV • TensorFlow"),
-    ("CLOUD", "AWS"),
+    ("AI / ML", "TensorFlow • PyTorch • YOLO"),
+    ("VISION", "OpenCV • PyAV • TensorRT"),
+    ("TOOLS", "AWS • Docker • Git • Linux"),
 ]
 
 
@@ -31,200 +29,44 @@ def escape_xml(text):
 
 
 def create_svg():
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">',
+        '<defs>',
+        '<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">',
+        '<stop offset="0%" stop-color="#0b1220" />',
+        '<stop offset="100%" stop-color="#0f172a" />',
+        '</linearGradient>',
+        '</defs>',
+        f'<rect x="0" y="0" width="{WIDTH}" height="{HEIGHT}" rx="18" fill="url(#panel)" stroke="#233548" stroke-width="1.2" />',
+        '<rect x="0" y="0" width="540" height="46" rx="18" fill="#0d1724" stroke="#233548" stroke-width="1.2" />',
+        '<circle cx="20" cy="23" r="5" fill="#f87171" />',
+        '<circle cx="38" cy="23" r="5" fill="#fbbf24" />',
+        '<circle cx="56" cy="23" r="5" fill="#4ade80" />',
+        '<text x="82" y="30" font-size="15" font-family="monospace" fill="#7dd3fc">simon@github ~ $ whoami</text>',
+        '<text x="22" y="82" font-size="12" font-family="monospace" fill="#8ba0b6">$ system --info</text>',
+    ]
 
-    svg = []
-
-    svg.append(
-        f'''<svg xmlns="http://www.w3.org/2000/svg"
-        width="{WIDTH}"
-        height="{HEIGHT}"
-        viewBox="0 0 {WIDTH} {HEIGHT}">'''
-    )
-
-    svg.append("""
-<style>
-
-.background {
-    fill: #0d1117;
-    stroke: #30363d;
-    stroke-width: 1;
-}
-
-.header {
-    fill: #161b22;
-}
-
-.title {
-    font-family: monospace;
-    font-size: 16px;
-    font-weight: bold;
-    fill: #58a6ff;
-}
-
-.prompt {
-    font-family: monospace;
-    font-size: 13px;
-    fill: #8b949e;
-}
-
-.key {
-    font-family: monospace;
-    font-size: 13px;
-    font-weight: bold;
-    fill: #79c0ff;
-}
-
-.value {
-    font-family: monospace;
-    font-size: 13px;
-    fill: #c9d1d9;
-}
-
-.dot {
-    fill: #f85149;
-}
-
-.dot2 {
-    fill: #d29922;
-}
-
-.dot3 {
-    fill: #3fb950;
-}
-
-.row {
-    opacity: 0;
-    animation: appear 0.45s ease-out forwards;
-}
-
-@keyframes appear {
-
-    from {
-        opacity: 0;
-        transform: translateY(7px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-}
-
-</style>
-""")
-
-    # Main background
-    svg.append(
-        f'''
-<rect
-    class="background"
-    x="0"
-    y="0"
-    width="{WIDTH}"
-    height="{HEIGHT}"
-    rx="12"
-/>
-'''
-    )
-
-    # Header
-    svg.append(
-        f'''
-<rect
-    class="header"
-    x="0"
-    y="0"
-    width="{WIDTH}"
-    height="48"
-    rx="12"
-/>
-'''
-    )
-
-    # Fake terminal dots
-    svg.append(
-        '''
-<circle class="dot" cx="20" cy="24" r="5"/>
-<circle class="dot2" cx="38" cy="24" r="5"/>
-<circle class="dot3" cx="56" cy="24" r="5"/>
-'''
-    )
-
-    svg.append(
-        '''
-<text class="title" x="78" y="30">
-simon@github ~ $ neofetch
-</text>
-'''
-    )
-
-    # Prompt
-    svg.append(
-        '''
-<text class="prompt" x="22" y="75">
-$ system --info
-</text>
-'''
-    )
-
-    start_y = 105
-    spacing = 32
-
+    start_y = 108
     for index, (key, value) in enumerate(lines):
-
-        y = start_y + index * spacing
-        delay = 0.4 + index * 0.12
-
+        y = start_y + index * 28
         svg.append(
-            f'''
-<g
-    class="row"
-    style="animation-delay:{delay:.2f}s"
->
-    <text
-        class="key"
-        x="22"
-        y="{y}"
-    >
-        {escape_xml(key)}
-    </text>
-
-    <text
-        class="value"
-        x="145"
-        y="{y}"
-    >
-        {escape_xml(value)}
-    </text>
-</g>
-'''
+            f'<text x="22" y="{y}" font-size="11" font-family="monospace" fill="#7dd3fc" font-weight="700">{escape_xml(key)}</text>'
+        )
+        svg.append(
+            f'<text x="150" y="{y}" font-size="12" font-family="monospace" fill="#e2e8f0">{escape_xml(value)}</text>'
         )
 
-    svg.append(
-        '''
-<text
-    class="prompt"
-    x="22"
-    y="402"
->
-$ status: building intelligent software...
-</text>
-'''
-    )
+    svg.extend([
+        '<text x="22" y="398" font-size="12" font-family="monospace" fill="#8ba0b6">$ status: building intelligent software...</text>',
+        '<rect x="22" y="406" width="240" height="8" rx="4" fill="#0b1420" stroke="#263b4d" stroke-width="1" />',
+        '<rect x="26" y="410" width="160" height="4" rx="2" fill="#34d399" opacity="0.9">',
+        '<animate attributeName="width" values="160;210;160" dur="2.6s" repeatCount="indefinite" />',
+        '</rect>',
+        '</svg>',
+    ])
 
-    svg.append("</svg>")
-
-    OUTPUT.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    OUTPUT.write_text(
-        "\n".join(svg),
-        encoding="utf-8"
-    )
-
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text("\n".join(svg), encoding="utf-8")
     print(f"Created: {OUTPUT}")
 
 
