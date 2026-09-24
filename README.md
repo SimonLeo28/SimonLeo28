@@ -2,214 +2,154 @@
   <img src="./assets/hero-terminal.svg" width="1200" alt="Simon Leo Alexander portfolio hero" />
 </div>
 
----
-
 <div align="center">
-  <h3><code>$ whoami</code></h3>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=%3E+SIMON_LEO_ALEXANDER;%3E+AI+%C3%97+FULL_STACK_DEVELOPER;%3E+COMPUTER_VISION_ENGINEER;%3E+AUTOMATION_SPECIALIST" alt="Typing SVG" />
 </div>
 
-<table>
-  <tr>
-    <td width="46%" valign="top">
-      <img src="./assets/info-card.svg" width="100%" alt="Simon Leo Alexander profile card" />
-    </td>
-    <td width="54%" valign="top">
-      <div style="padding: 18px; border: 1px solid #203244; border-radius: 16px; background: #0b1320; font-family: 'Segoe UI', Arial, sans-serif; color: #dfeaf5; line-height: 1.7; text-align: left;">
-        <p style="margin: 0 0 12px; font-size: 16px; color: #7dd3fc; font-family: monospace;">Simon Leo Alexander</p>
-        <p style="margin: 0 0 10px; font-size: 22px; font-weight: 700; color: #f8fafc;">AI &amp; Full Stack Developer</p>
-        <p style="margin: 0 0 10px; font-size: 15px; color: #cbd5e1;">
-          Focused on building practical systems that combine <strong style="color: #7dd3fc;">AI-powered products</strong>, scalable web platforms, and real-time vision workflows.
-        </p>
-        <p style="margin: 0; font-size: 15px; color: #cbd5e1;">
-          I am a final-year Information Science &amp; Engineering student building intelligent applications across <strong style="color: #a78bfa;">full stack development</strong>, <strong style="color: #34d399;">computer vision</strong>, and <strong style="color: #fbbf24;">automation</strong>.
-        </p>
-      </div>
-    </td>
-  </tr>
-</table>
-
----
+<br />
 
 <div align="center">
-  <h3><code>$ tech --stack</code></h3>
+  <h2 style="color: #00ff41; font-family: 'Fira Code', monospace;"><code>[ SYSTEM.EXECUTE("whoami") ]</code></h2>
 </div>
 
-<table>
+<table align="center" width="100%" style="border-collapse: collapse; background-color: #0d1117;">
   <tr>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left;">
-        <p style="margin: 0 0 8px; color: #7dd3fc; font-size: 12px; letter-spacing: 2px;">01 / FRONTEND</p>
-        <p style="margin: 0; font-size: 14px;">React</p>
-        <p style="margin: 0; font-size: 14px;">Next.js</p>
-        <p style="margin: 0; font-size: 14px;">JavaScript</p>
-        <p style="margin: 0; font-size: 14px;">Tailwind CSS</p>
-      </div>
+    <td width="40%" align="center">
+      <img src="./assets/simon-ascii.svg" width="90%" alt="Simon ascii art" onerror="this.src='./assets/info-card.svg'" />
     </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left;">
-        <p style="margin: 0 0 8px; color: #c084fc; font-size: 12px; letter-spacing: 2px;">02 / BACKEND</p>
-        <p style="margin: 0; font-size: 14px;">Node.js</p>
-        <p style="margin: 0; font-size: 14px;">Express</p>
-        <p style="margin: 0; font-size: 14px;">REST APIs</p>
-        <p style="margin: 0; font-size: 14px;">Python</p>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left;">
-        <p style="margin: 0 0 8px; color: #34d399; font-size: 12px; letter-spacing: 2px;">03 / AI / ML</p>
-        <p style="margin: 0; font-size: 14px;">Python</p>
-        <p style="margin: 0; font-size: 14px;">TensorFlow</p>
-        <p style="margin: 0; font-size: 14px;">PyTorch</p>
-        <p style="margin: 0; font-size: 14px;">YOLO · OpenCV</p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left; margin-top: 16px;">
-        <p style="margin: 0 0 8px; color: #fbbf24; font-size: 12px; letter-spacing: 2px;">04 / DATABASE</p>
-        <p style="margin: 0; font-size: 14px;">MongoDB</p>
-        <p style="margin: 0; font-size: 14px;">PostgreSQL</p>
-        <p style="margin: 0; font-size: 14px;">SQL</p>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left; margin-top: 16px;">
-        <p style="margin: 0 0 8px; color: #f472b6; font-size: 12px; letter-spacing: 2px;">05 / DEVOPS</p>
-        <p style="margin: 0; font-size: 14px;">Git</p>
-        <p style="margin: 0; font-size: 14px;">GitHub</p>
-        <p style="margin: 0; font-size: 14px;">AWS</p>
-        <p style="margin: 0; font-size: 14px;">Linux · Docker</p>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #223548; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; line-height: 1.9; text-align: left; margin-top: 16px;">
-        <p style="margin: 0 0 8px; color: #2dd4bf; font-size: 12px; letter-spacing: 2px;">06 / VISION</p>
-        <p style="margin: 0; font-size: 14px;">YOLO</p>
-        <p style="margin: 0; font-size: 14px;">OpenCV</p>
-        <p style="margin: 0; font-size: 14px;">PyAV</p>
-        <p style="margin: 0; font-size: 14px;">TensorRT</p>
-      </div>
-    </td>
-  </tr>
-</table>
-
----
-
-<div align="center">
-  <h3><code>$ what_i_build</code></h3>
-</div>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #1e3a5f; border-radius: 16px; background: linear-gradient(180deg, #0b1320 0%, #0f172a 100%); color: #e2e8f0; text-align: left;">
-        <p style="margin: 0 0 8px; color: #7dd3fc; font-size: 12px; letter-spacing: 2px; font-family: monospace;">CARD 01</p>
-        <h3 style="margin: 0 0 10px; font-size: 24px; color: #f8fafc;">AI / MACHINE LEARNING</h3>
-        <p style="margin: 0; color: #cbd5e1; line-height: 1.7;">
-          Build intelligent applications using Python, TensorFlow, PyTorch, YOLO, and agentic AI workflows.
+    <td width="60%">
+      <div style="padding: 20px; border: 1px solid #00ff41; border-radius: 5px; background: rgba(0,255,65,0.05); font-family: 'Fira Code', 'Consolas', monospace; color: #c9d1d9; line-height: 1.6;">
+        <p style="margin: 0 0 10px; color: #00ff41; text-shadow: 0 0 5px #00ff41;">> status: ONLINE</p>
+        <p style="margin: 0 0 10px; font-size: 16px;">
+          <span style="color: #ff7b72;">const</span> <span style="color: #79c0ff;">focus</span> = [<br/>
+          &nbsp;&nbsp;<span style="color: #a5d6ff;">"AI-powered products"</span>,<br/>
+          &nbsp;&nbsp;<span style="color: #a5d6ff;">"Scalable web platforms"</span>,<br/>
+          &nbsp;&nbsp;<span style="color: #a5d6ff;">"Real-time vision workflows"</span><br/>
+          ];
         </p>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #1e3a5f; border-radius: 16px; background: linear-gradient(180deg, #0b1320 0%, #0f172a 100%); color: #e2e8f0; text-align: left;">
-        <p style="margin: 0 0 8px; color: #c084fc; font-size: 12px; letter-spacing: 2px; font-family: monospace;">CARD 02</p>
-        <h3 style="margin: 0 0 10px; font-size: 24px; color: #f8fafc;">FULL STACK SYSTEMS</h3>
-        <p style="margin: 0; color: #cbd5e1; line-height: 1.7;">
-          Build complete web applications with React, Next.js, Node.js, Express, and MongoDB for production-ready experiences.
-        </p>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div style="padding: 18px; border: 1px solid #1e3a5f; border-radius: 16px; background: linear-gradient(180deg, #0b1320 0%, #0f172a 100%); color: #e2e8f0; text-align: left;">
-        <p style="margin: 0 0 8px; color: #34d399; font-size: 12px; letter-spacing: 2px; font-family: monospace;">CARD 03</p>
-        <h3 style="margin: 0 0 10px; font-size: 24px; color: #f8fafc;">COMPUTER VISION</h3>
-        <p style="margin: 0; color: #cbd5e1; line-height: 1.7;">
-          Build real-time vision systems using YOLO, OpenCV, PyAV, TensorRT, Flask, and Electron-based tooling.
+        <p style="margin: 0; font-size: 15px;">
+          > Final-year Information Science &amp; Engineering student.<br/>
+          > Forging intelligent systems through <strong style="color: #ff7b72;">full-stack engineering</strong>, <strong style="color: #2f81f7;">computer vision</strong>, and <strong style="color: #d2a8ff;">automation</strong>.
         </p>
       </div>
     </td>
   </tr>
 </table>
 
----
+<br />
 
 <div align="center">
-  <img src="./assets/projects-showcase.svg" width="1200" alt="Featured projects showcase" />
+  <h2 style="color: #00ff41; font-family: 'Fira Code', monospace;"><code>[ SYSTEM.GET_MODULES("tech_stack") ]</code></h2>
 </div>
 
-### Featured project links
-
-- [AI Pallet &amp; Case Detection](https://github.com/SimonLeo28/God-s-Eye)
-- [AI Currency Object Detector](https://github.com/SimonLeo28/ai-currency-object-detector)
-- [Plate Smart](https://github.com/SimonLeo28/Plate_Smart)
-- [My LifeLine](https://github.com/SimonLeo28/MyLifeLine)
-- [Nexora 2026](https://github.com/SimonLeo28/Nexora-2026)
-- [KwickStack](https://github.com/SimonLeo28/kwickstack)
-
----
-
-<div align="center">
-  <h3><code>$ architecture</code></h3>
-</div>
-
-<div align="center">
-  <img src="./assets/stack-architecture.svg" width="1200" alt="AI to frontend architecture map" />
-</div>
-
----
-
-<div align="center">
-  <h3><code>$ current_focus</code></h3>
-</div>
-
-<table>
+<table align="center" width="100%" style="border-collapse: collapse; background-color: #0d1117;">
   <tr>
-    <td width="50%" valign="top">
-      <div style="padding: 18px; border: 1px solid #203244; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; text-align: left;">
-        <p style="margin: 0 0 12px; color: #7dd3fc; font-size: 12px; letter-spacing: 2px;">CURRENTLY BUILDING</p>
-        <p style="margin: 0; line-height: 1.8;">&gt; AI-powered applications<br>&gt; Full-stack web platforms<br>&gt; Computer vision systems<br>&gt; Real-time data systems<br>&gt; Automation workflows</p>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #ff7b72; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8;">
+        <p style="margin: 0 0 8px; color: #ff7b72; font-size: 13px; font-weight: bold;">// FRONTEND_CORE</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> React.js</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Next.js</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> TypeScript</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> TailwindCSS</p>
       </div>
     </td>
-    <td width="50%" valign="top">
-      <div style="padding: 18px; border: 1px solid #203244; border-radius: 14px; background: #0a1220; color: #e2e8f0; font-family: monospace; text-align: left;">
-        <p style="margin: 0 0 12px; color: #34d399; font-size: 12px; letter-spacing: 2px;">CURRENTLY LEARNING</p>
-        <p style="margin: 0; line-height: 1.8;">&gt; Advanced AI/ML<br>&gt; Agentic AI<br>&gt; Cloud deployment<br>&gt; Scalable backend architecture</p>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #79c0ff; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8;">
+        <p style="margin: 0 0 8px; color: #79c0ff; font-size: 13px; font-weight: bold;">// BACKEND_NODE</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Node.js</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Express / Fastify</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> RESTful APIs</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Microservices</p>
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #d2a8ff; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8;">
+        <p style="margin: 0 0 8px; color: #d2a8ff; font-size: 13px; font-weight: bold;">// AI_ML_VISION</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Python</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> PyTorch / TF</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> YOLO (Ultralytics)</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> OpenCV</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #a5d6ff; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8; margin-top: 10px;">
+        <p style="margin: 0 0 8px; color: #a5d6ff; font-size: 13px; font-weight: bold;">// DATABASE_LAYER</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> MongoDB</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> PostgreSQL</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Redis</p>
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #00ff41; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8; margin-top: 10px;">
+        <p style="margin: 0 0 8px; color: #00ff41; font-size: 13px; font-weight: bold;">// DEVOPS_INFRA</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Git / GitHub</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Docker</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Linux</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> AWS Basics</p>
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <div style="padding: 15px; border-left: 2px solid #ffa657; border-right: 1px solid #30363d; border-bottom: 1px solid #30363d; border-top: 1px solid #30363d; background: #161b22; font-family: 'Fira Code', monospace; line-height: 1.8; margin-top: 10px;">
+        <p style="margin: 0 0 8px; color: #ffa657; font-size: 13px; font-weight: bold;">// PERFORMANCE</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> TensorRT</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> PyAV</p>
+        <p style="margin: 0; font-size: 14px; color: #c9d1d9;">> Optimization</p>
       </div>
     </td>
   </tr>
 </table>
 
----
+<br />
 
 <div align="center">
-  <h3><code>$ system_activity</code></h3>
+  <h2 style="color: #00ff41; font-family: 'Fira Code', monospace;"><code>[ SYSTEM.LOAD("recent_projects") ]</code></h2>
 </div>
 
 <div align="center">
-  <img src="./assets/contrib-heatmap.svg" width="860" alt="GitHub contribution activity" />
+  <a href="https://github.com/SimonLeo28/God-s-Eye">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonLeo28&repo=God-s-Eye&theme=react&bg_color=0d1117&border_color=00ff41&title_color=00ff41&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/SimonLeo28/ai-currency-object-detector">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonLeo28&repo=ai-currency-object-detector&theme=react&bg_color=0d1117&border_color=79c0ff&title_color=79c0ff&text_color=c9d1d9" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/SimonLeo28/Plate_Smart">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonLeo28&repo=Plate_Smart&theme=react&bg_color=0d1117&border_color=d2a8ff&title_color=d2a8ff&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/SimonLeo28/MyLifeLine">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonLeo28&repo=MyLifeLine&theme=react&bg_color=0d1117&border_color=ff7b72&title_color=ff7b72&text_color=c9d1d9" />
+  </a>
 </div>
 
----
+<br />
 
 <div align="center">
-  <h3><code>$ connect</code></h3>
+  <h2 style="color: #00ff41; font-family: 'Fira Code', monospace;"><code>[ SYSTEM.METRICS("contribution_graph") ]</code></h2>
 </div>
 
-<div align="center" style="padding: 18px 0 28px;">
-  <a href="https://github.com/SimonLeo28" style="color: #7dd3fc; text-decoration: none;">GitHub</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/SimonLeo28/SimonLeo28" style="color: #7dd3fc; text-decoration: none;">Portfolio</a>
-  &nbsp;•&nbsp;
-  <span style="color: #cbd5e1;">LinkedIn: not shared publicly</span>
-  &nbsp;•&nbsp;
-  <span style="color: #cbd5e1;">Email: not shared publicly</span>
+<div align="center">
+  <img src="./assets/contrib-heatmap.svg" width="860" alt="GitHub contribution activity" style="border: 1px solid #30363d; border-radius: 5px;" />
 </div>
 
-<p align="center" style="font-family: monospace; color: #7dd3fc;">LET'S BUILD SOMETHING</p>
+<br />
 
-<p align="center" style="font-family: monospace; color: #cbd5e1;">AI • Full Stack Development • Computer Vision • Software Engineering</p>
+<div align="center">
+  <h2 style="color: #00ff41; font-family: 'Fira Code', monospace;"><code>[ NETWORK.ESTABLISH_CONNECTION() ]</code></h2>
+</div>
 
----
+<div align="center" style="font-family: 'Fira Code', monospace; padding: 20px;">
+  <a href="https://github.com/SimonLeo28" style="color: #00ff41; text-decoration: none; border: 1px solid #00ff41; padding: 10px 20px; border-radius: 3px; display: inline-block; margin: 0 10px;">> GITHUB</a>
+  <a href="https://github.com/SimonLeo28/SimonLeo28" style="color: #79c0ff; text-decoration: none; border: 1px solid #79c0ff; padding: 10px 20px; border-radius: 3px; display: inline-block; margin: 0 10px;">> PORTFOLIO</a>
+</div>
 
-<p align="center" style="font-size: 12px; color: #94a3b8; font-family: monospace;">Bengaluru, Karnataka, India</p>
+<p align="center" style="font-family: 'Fira Code', monospace; color: #c9d1d9; font-size: 14px;">
+  <span style="color: #00ff41;">></span> SYSTEM.LOG("BUILDING THE FUTURE OF AI & WEB");
+</p>
+
+<p align="center" style="font-family: 'Fira Code', monospace; color: #8b949e; font-size: 12px; margin-top: 30px;">
+  [ Location: Bengaluru, Karnataka, India ]<br/>
+  [ EOF ]
+</p>
