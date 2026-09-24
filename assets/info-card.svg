@@ -1,0 +1,319 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+        width="490"
+        height="430"
+        viewBox="0 0 490 430">
+
+<style>
+
+.background {
+    fill: #0d1117;
+    stroke: #30363d;
+    stroke-width: 1;
+}
+
+.header {
+    fill: #161b22;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    fill: #58a6ff;
+}
+
+.prompt {
+    font-family: monospace;
+    font-size: 13px;
+    fill: #8b949e;
+}
+
+.key {
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    fill: #79c0ff;
+}
+
+.value {
+    font-family: monospace;
+    font-size: 13px;
+    fill: #c9d1d9;
+}
+
+.dot {
+    fill: #f85149;
+}
+
+.dot2 {
+    fill: #d29922;
+}
+
+.dot3 {
+    fill: #3fb950;
+}
+
+.row {
+    opacity: 0;
+    animation: appear 0.45s ease-out forwards;
+}
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+        transform: translateY(7px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+</style>
+
+
+<rect
+    class="background"
+    x="0"
+    y="0"
+    width="490"
+    height="430"
+    rx="12"
+/>
+
+
+<rect
+    class="header"
+    x="0"
+    y="0"
+    width="490"
+    height="48"
+    rx="12"
+/>
+
+
+<circle class="dot" cx="20" cy="24" r="5"/>
+<circle class="dot2" cx="38" cy="24" r="5"/>
+<circle class="dot3" cx="56" cy="24" r="5"/>
+
+
+<text class="title" x="78" y="30">
+simon@github ~ $ neofetch
+</text>
+
+
+<text class="prompt" x="22" y="75">
+$ system --info
+</text>
+
+
+<g
+    class="row"
+    style="animation-delay:0.40s"
+>
+    <text
+        class="key"
+        x="22"
+        y="105"
+    >
+        USER
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="105"
+    >
+        Simon Leo Alexander
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:0.52s"
+>
+    <text
+        class="key"
+        x="22"
+        y="137"
+    >
+        ROLE
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="137"
+    >
+        AI &amp; Full Stack Developer
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:0.64s"
+>
+    <text
+        class="key"
+        x="22"
+        y="169"
+    >
+        EDUCATION
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="169"
+    >
+        Information Science Engineering
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:0.76s"
+>
+    <text
+        class="key"
+        x="22"
+        y="201"
+    >
+        FOCUS
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="201"
+    >
+        AI • Computer Vision • Web
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:0.88s"
+>
+    <text
+        class="key"
+        x="22"
+        y="233"
+    >
+        FRONTEND
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="233"
+    >
+        React • Next.js • Tailwind
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:1.00s"
+>
+    <text
+        class="key"
+        x="22"
+        y="265"
+    >
+        BACKEND
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="265"
+    >
+        Node.js • Express • Python
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:1.12s"
+>
+    <text
+        class="key"
+        x="22"
+        y="297"
+    >
+        DATABASE
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="297"
+    >
+        MongoDB
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:1.24s"
+>
+    <text
+        class="key"
+        x="22"
+        y="329"
+    >
+        AI/ML
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="329"
+    >
+        YOLO • OpenCV • TensorFlow
+    </text>
+</g>
+
+
+<g
+    class="row"
+    style="animation-delay:1.36s"
+>
+    <text
+        class="key"
+        x="22"
+        y="361"
+    >
+        CLOUD
+    </text>
+
+    <text
+        class="value"
+        x="145"
+        y="361"
+    >
+        AWS
+    </text>
+</g>
+
+
+<text
+    class="prompt"
+    x="22"
+    y="402"
+>
+$ status: building intelligent software...
+</text>
+
+</svg>
