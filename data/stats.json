@@ -1,0 +1,36 @@
+{
+ "username": "SimonLeo28",
+ "synced": "2026-09-26",
+ "source": "html",
+ "repos": 30,
+ "followers": 1,
+ "following": 2,
+ "stars": 0,
+ "forks": 0,
+ "languages": [
+  {
+   "name": "JavaScript",
+   "count": 14
+  },
+  {
+   "name": "Python",
+   "count": 4
+  },
+  {
+   "name": "TypeScript",
+   "count": 4
+  },
+  {
+   "name": "HTML",
+   "count": 2
+  },
+  {
+   "name": "Jupyter Notebook",
+   "count": 1
+  },
+  {
+   "name": "EJS",
+   "count": 1
+  }
+ ]
+}

@@ -1,457 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-        width="620"
-        height="450"
-        viewBox="0 0 620 450">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="676" height="552" viewBox="0 0 676 552" role="img" aria-labelledby="t d">
+<title id="t">Simon Leo Alexander — ASCII portrait</title>
+<desc id="d">A photo of Simon rendered as ASCII art that fades in row by row, with a soft scanline sweeping over it.</desc>
 <style>
-.ascii {
-    font-family: "Courier New", monospace;
-    font-size: 8px;
-    font-weight: 600;
-    fill: #8b949e;
-}
+svg{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+.blink{animation:blink 1.06s steps(1,end) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.28}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
 
-@keyframes reveal {
-    from {
-        opacity: 0;
-        transform: translateX(-10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.row {
-    opacity: 0;
-    animation: reveal 0.45s ease-out forwards;
-}
+.row{opacity:0;animation:rowin .5s ease-out forwards}
+@keyframes rowin{to{opacity:1}}
+.sweep{animation:sweep 6s ease-in-out infinite}
+@keyframes sweep{0%,100%{transform:translateY(-10px)}50%{transform:translateY(450.5px)}}
 </style>
 
-<rect width="100%" height="100%" fill="#0d1117"/>
-
-<text
-    class="ascii row"
-    x="4"
-    y="8.5"
-    style="animation-delay:0.000s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="17.0"
-    style="animation-delay:0.045s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="25.5"
-    style="animation-delay:0.090s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="34.0"
-    style="animation-delay:0.135s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="42.5"
-    style="animation-delay:0.180s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="51.0"
-    style="animation-delay:0.225s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="59.5"
-    style="animation-delay:0.270s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="68.0"
-    style="animation-delay:0.315s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="76.5"
-    style="animation-delay:0.360s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="85.0"
-    style="animation-delay:0.405s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="93.5"
-    style="animation-delay:0.450s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="102.0"
-    style="animation-delay:0.495s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="110.5"
-    style="animation-delay:0.540s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="119.0"
-    style="animation-delay:0.585s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="127.5"
-    style="animation-delay:0.630s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="136.0"
-    style="animation-delay:0.675s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="144.5"
-    style="animation-delay:0.720s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="153.0"
-    style="animation-delay:0.765s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="161.5"
-    style="animation-delay:0.810s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="170.0"
-    style="animation-delay:0.855s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="178.5"
-    style="animation-delay:0.900s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="187.0"
-    style="animation-delay:0.945s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="195.5"
-    style="animation-delay:0.990s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="204.0"
-    style="animation-delay:1.035s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="212.5"
-    style="animation-delay:1.080s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="221.0"
-    style="animation-delay:1.125s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%c=-:-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="229.5"
-    style="animation-delay:1.170s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*     -%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="238.0"
-    style="animation-delay:1.215s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.``. `%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="246.5"
-    style="animation-delay:1.260s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c:*c+`-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="255.0"
-    style="animation-delay:1.305s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s=+*=:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="263.5"
-    style="animation-delay:1.350s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+=++-+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="272.0"
-    style="animation-delay:1.395s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*sc+*+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="280.5"
-    style="animation-delay:1.440s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++=--=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="289.0"
-    style="animation-delay:1.485s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-+-:c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="297.5"
-    style="animation-delay:1.530s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=:.`:s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="306.0"
-    style="animation-delay:1.575s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-=+::``#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="314.5"
-    style="animation-delay:1.620s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s:`**==+:-*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="323.0"
-    style="animation-delay:1.665s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+` -ssccc=``=c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="331.5"
-    style="animation-delay:1.710s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s=:`.+s##ss+:.::=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="340.0"
-    style="animation-delay:1.755s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-```+s##cs+:.`:`c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="348.5"
-    style="animation-delay:1.800s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s::::`*s#scs+:`.:.=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="357.0"
-    style="animation-delay:1.845s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*::-:`cc#scc*::.``-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="365.5"
-    style="animation-delay:1.890s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=::-:`ccc*s#c::.``-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="374.0"
-    style="animation-delay:1.935s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-::-:`c**c##c::```-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="382.5"
-    style="animation-delay:1.980s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s-`:-:`c*+###*::`.`-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="391.0"
-    style="animation-delay:2.025s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*-``-``sc*##s+-:` ::=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="399.5"
-    style="animation-delay:2.070s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*-.`-`:ssc##**-``.`::#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="408.0"
-    style="animation-delay:2.115s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=`.`-`:sss#s+c-::.`::c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="416.5"
-    style="animation-delay:2.160s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=--:-.-cs##**s:::..``s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="425.0"
-    style="animation-delay:2.205s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++::-.=s%%c**s-:```--#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="433.5"
-    style="animation-delay:2.250s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--.::.+s%%cc*c-:``:==%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="442.0"
-    style="animation-delay:2.295s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c==:-:`+s%%c*cc=:``:=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
-
-<text
-    class="ascii row"
-    x="4"
-    y="450.5"
-    style="animation-delay:2.340s"
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s==--``*c***+s**:.`:=-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-
+<rect x=".5" y=".5" width="675" height="551" rx="14" fill="#0a0f14" stroke="#17402a"/>
+<path d="M.5 44.5H675.5" stroke="#12261b"/>
+<path d="M.5 44.5V15a14.5 14.5 0 0 1 14.5-14.5H661a14.5 14.5 0 0 1 14.5 14.5v29.5z" fill="#0f1720" opacity=".9"/>
+<circle cx="26" cy="23" r="6" fill="#ff5f56"/><circle cx="48" cy="23" r="6" fill="#ffbd2e"/><circle cx="70" cy="23" r="6" fill="#27c93f"/>
+<text x="338.0" y="28" text-anchor="middle" font-size="13" fill="#8b949e">portrait.ascii</text>
+<text x="652" y="28" text-anchor="end" font-size="12" fill="#4d5966">100x53 · density-ramp render</text>
+<g font-size="8" font-family="ui-monospace,Consolas,monospace" fill="#00ff41" transform="translate(28 74)">
+<text class="row" style="animation-delay:0.35s" x="0" y="8" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.37s" x="0" y="16.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.40s" x="0" y="25" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.42s" x="0" y="33.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.45s" x="0" y="42" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.47s" x="0" y="50.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.49s" x="0" y="59" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.52s" x="0" y="67.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.54s" x="0" y="76" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.57s" x="0" y="84.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.59s" x="0" y="93" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.61s" x="0" y="101.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.64s" x="0" y="110" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.66s" x="0" y="118.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.69s" x="0" y="127" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.71s" x="0" y="135.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.73s" x="0" y="144" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.76s" x="0" y="152.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.78s" x="0" y="161" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.81s" x="0" y="169.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.83s" x="0" y="178" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.85s" x="0" y="186.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.88s" x="0" y="195" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.90s" x="0" y="203.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.93s" x="0" y="212" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.95s" x="0" y="220.5" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%c=-:-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:0.97s" x="0" y="229" fill-opacity="0.86" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*     -%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.00s" x="0" y="237.5" fill-opacity="0.86" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.``. `%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.02s" x="0" y="246" fill-opacity="0.87" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c:*c+`-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.05s" x="0" y="254.5" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s=+*=:+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.07s" x="0" y="263" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+=++-+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.09s" x="0" y="271.5" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*sc+*+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.12s" x="0" y="280" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++=--=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.14s" x="0" y="288.5" fill-opacity="0.88" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-+-:c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.17s" x="0" y="297" fill-opacity="0.87" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=:.`:s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.19s" x="0" y="305.5" fill-opacity="0.86" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-=+::``#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.21s" x="0" y="314" fill-opacity="0.86" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s:`**==+:-*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.24s" x="0" y="322.5" fill-opacity="0.85" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+` -ssccc=``=c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.26s" x="0" y="331" fill-opacity="0.84" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s=:`.+s##ss+:.::=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.29s" x="0" y="339.5" fill-opacity="0.83" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=-```+s##cs+:.`:`c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.31s" x="0" y="348" fill-opacity="0.83" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s::::`*s#scs+:`.:.=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.33s" x="0" y="356.5" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*::-:`cc#scc*::.``-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.36s" x="0" y="365" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=::-:`ccc*s#c::.``-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.38s" x="0" y="373.5" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-::-:`c**c##c::```-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.41s" x="0" y="382" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s-`:-:`c*+###*::`.`-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.43s" x="0" y="390.5" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*-``-``sc*##s+-:` ::=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.45s" x="0" y="399" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*-.`-`:ssc##**-``.`::#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.48s" x="0" y="407.5" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=`.`-`:sss#s+c-::.`::c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.50s" x="0" y="416" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=--:-.-cs##**s:::..``s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.53s" x="0" y="424.5" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++::-.=s%%c**s-:```--#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.55s" x="0" y="433" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--.::.+s%%cc*c-:``:==%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.57s" x="0" y="441.5" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c==:-:`+s%%c*cc=:``:=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text class="row" style="animation-delay:1.60s" x="0" y="450" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s==--``*c***+s**:.`:=-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<rect class="sweep" x="0" y="-10" width="620" height="26" fill="#00ff41" opacity=".07"/>
+</g>
 </svg>

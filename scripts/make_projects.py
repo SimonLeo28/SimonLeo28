@@ -1,94 +1,123 @@
-from pathlib import Path
+#!/usr/bin/env python3
+"""assets/project-*.svg — one animated card per project (each is linkable from the README)."""
 
-OUTPUT = Path("assets/projects-showcase.svg")
+from theme import C, USERNAME, border_runner, esc, fmt, icon_color, load_icons, rng, svg_close, svg_open, write_svg
 
-WIDTH = 1200
-HEIGHT = 620
-
+W, H = 480, 218
 
 PROJECTS = [
-    (
-        "AI Pallet & Case Detection",
-        "Python · YOLO · OpenCV · PyAV · TensorRT · Flask · Electron · MongoDB",
-        "#2dd4bf",
-    ),
-    (
-        "AI Currency Object Detector",
-        "Python · TensorFlow · OpenCV · Streamlit · Computer Vision",
-        "#60a5fa",
-    ),
-    (
-        "Plate Smart",
-        "React · Vite · Tailwind · Product Experience",
-        "#a78bfa",
-    ),
-    (
-        "My LifeLine",
-        "React · Node.js · Express · MongoDB · Safety Systems",
-        "#f472b6",
-    ),
-    (
-        "Nexora 2026",
-        "React · Vite · Tailwind · GSAP · Framer Motion",
-        "#f59e0b",
-    ),
-    (
-        "KwickStack",
-        "React · Vite · Tailwind · Modern Web UI",
-        "#34d399",
-    ),
+    {
+        "file": "project-gods-eye.svg", "repo": "God-s-Eye", "title": "AI Pallet & Case Detection",
+        "lines": ["Computer-vision system that detects pallets and", "cases from video streams using YOLO + TensorRT."],
+        "tags": ["Python", "YOLO", "OpenCV", "TensorRT", "PyAV", "Flask", "Electron", "MongoDB"],
+        "icons": ["python", "opencv"], "accent": C["green"],
+    },
+    {
+        "file": "project-currency-detector.svg", "repo": "ai-currency-object-detector",
+        "title": "AI Currency Object Detector",
+        "lines": ["Detects currency with a TensorFlow + OpenCV", "pipeline, served through a Streamlit app."],
+        "tags": ["Python", "TensorFlow", "OpenCV", "Streamlit"],
+        "icons": ["tensorflow", "opencv"], "accent": C["blue"],
+    },
+    {
+        "file": "project-plate-smart.svg", "repo": "Plate_Smart", "title": "Plate Smart",
+        "lines": ["A modern product experience crafted with React,", "Vite and Tailwind CSS."],
+        "tags": ["React", "Vite", "Tailwind CSS"],
+        "icons": ["react", "vite"], "accent": C["purple"],
+    },
+    {
+        "file": "project-mylifeline.svg", "repo": "MyLifeLine", "title": "My LifeLine",
+        "lines": ["Safety-focused platform with a React front end", "and a Node.js, Express & MongoDB backend."],
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
+        "icons": ["react", "nodejs"], "accent": C["red"],
+    },
+    {
+        "file": "project-nexora-2026.svg", "repo": "Nexora-2026", "title": "Nexora 2026",
+        "lines": ["A motion-rich web experience animated with GSAP", "and Framer Motion on a React + Vite stack."],
+        "tags": ["React", "Vite", "Tailwind CSS", "GSAP", "Framer Motion"],
+        "icons": ["gsap", "react"], "accent": C["amber"],
+    },
+    {
+        "file": "project-kwickstack.svg", "repo": "kwickstack", "title": "KwickStack",
+        "lines": ["A clean, fast and modern web interface built", "with React, Vite and Tailwind CSS."],
+        "tags": ["React", "Vite", "Tailwind CSS"],
+        "icons": ["react", "tailwind"], "accent": C["teal"],
+    },
 ]
 
 
-def escape_xml(value):
-    return (
-        str(value)
-        .replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
+def pills(tags, x0, y, accent, limit) -> str:
+    out, x = [], x0
+    shown = 0
+    for i, tag in enumerate(tags):
+        w = len(tag) * 7.1 + 18
+        remaining = len(tags) - i
+        reserve = 0 if remaining == 1 else 40  # keep room for a "+N" pill
+        if x + w > limit - reserve and remaining > 1:
+            break
+        out.append(f'<rect x="{fmt(x)}" y="{y}" width="{fmt(w)}" height="24" rx="12" fill="{accent}" fill-opacity=".08" stroke="{accent}" stroke-opacity=".45"/>'
+                   f'<text x="{fmt(x + w / 2)}" y="{y + 16}" font-size="11.5" text-anchor="middle" fill="{C["text"]}">{esc(tag)}</text>')
+        x += w + 8
+        shown += 1
+    if shown < len(tags):
+        extra = len(tags) - shown
+        label = f"+{extra}"
+        w = len(label) * 7.1 + 18
+        out.append(f'<rect x="{fmt(x)}" y="{y}" width="{fmt(w)}" height="24" rx="12" fill="none" stroke="{C["faint"]}" stroke-dasharray="3 3"/>'
+                   f'<text x="{fmt(x + w / 2)}" y="{y + 16}" font-size="11.5" text-anchor="middle" fill="{C["muted"]}">{label}</text>')
+    return "".join(out)
 
 
-def build_svg():
-    card_width = 330
-    card_height = 170
-    x_positions = [50, 420, 790]
-    y_positions = [90, 290]
+def build(project: dict, icons: dict) -> str:
+    a = project["accent"]
+    r = rng(project["file"])
+    css = """
+.arrow{animation:nudge 1.6s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.rise{animation:rise .7s cubic-bezier(.2,.8,.3,1) backwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+"""
+    url_path = f"{USERNAME}/{project['repo']}"
+    p = [svg_open(W, H, f"{project['title']} — project card",
+                  f"{project['title']}: {' '.join(project['lines'])} Built with {', '.join(project['tags'])}.", css)]
+    p.append(f"""<defs>
+<clipPath id="card"><rect width="{W}" height="{H}" rx="12"/></clipPath>
+<pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="{a}" stroke-opacity=".07"/></pattern>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="{a}" stop-opacity="0"/><stop offset=".5" stop-color="{a}" stop-opacity=".16"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></linearGradient>
+<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12" fill="{C['panel']}" stroke="{C['line_dim']}"/>
+<g clip-path="url(#card)">
+<rect width="{W}" height="{H}" fill="url(#grid)"/>
+<rect y="0" width="90" height="{H}" fill="url(#sweep)" x="-90"><animate attributeName="x" values="-90;{W};{W}" keyTimes="0;.62;1" dur="{r.uniform(6.2, 7.6):.1f}s" begin="{r.uniform(0, 3):.1f}s" repeatCount="indefinite"/></rect>
+<rect x="0" y="0" width="5" height="{H}" fill="{a}"/>
+</g>
+{border_runner(1, 1, W - 2, H - 2, 11, a, dur=r.uniform(6, 8), dash=150, width=2, begin=-r.uniform(0, 6))}
+<g class="rise">
+<text x="26" y="34" font-size="11.5" fill="{C['muted']}">~/{esc(url_path)}</text>""")
+    # tech icons top-right
+    for i, key in enumerate(project["icons"]):
+        ic = icons[key]
+        x = W - 30 - 22 - i * 32
+        p.append(f'<g transform="translate({x} 18) scale(.92)" fill="{icon_color(ic["hex"])}"><path d="{ic["path"]}"/></g>')
+    p.append(f"""<text x="26" y="76" font-size="21" font-weight="700" fill="{a}">{esc(project['title'])}</text>
+<text x="26" y="106" font-size="13" fill="#a9b7c6">{esc(project['lines'][0])}</text>
+<text x="26" y="126" font-size="13" fill="#a9b7c6">{esc(project['lines'][1])}</text>
+{pills(project['tags'], 26, 146, a, W - 26)}
+<circle class="pulse" cx="32" cy="196" r="3.5" fill="{a}"/>
+<text x="43" y="200" font-size="11" fill="{C['muted']}" letter-spacing="1">PUBLIC REPO</text>
+<text x="{W - 46}" y="200" font-size="11.5" text-anchor="end" fill="{a}" letter-spacing="1">VIEW REPO</text>
+<text class="arrow" x="{W - 40}" y="200" font-size="12" fill="{a}">→</text>
+</g>""")
+    p.append(svg_close())
+    return "\n".join(p)
 
-    svg = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">',
-        '<defs>',
-        '<linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">',
-        '<stop offset="0%" stop-color="#08131e" />',
-        '<stop offset="100%" stop-color="#0f172a" />',
-        '</linearGradient>',
-        '</defs>',
-        f'<rect width="{WIDTH}" height="{HEIGHT}" rx="24" fill="url(#darkBg)" stroke="#253447" />',
-        '<text x="52" y="52" font-size="22" font-family="monospace" font-weight="700" fill="#dbeafe">FEATURED PROJECTS</text>',
-        '<text x="52" y="76" font-size="13" font-family="monospace" fill="#94a3b8">AI + full stack portfolio</text>',
-    ]
 
-    for index, (title, stack, accent) in enumerate(PROJECTS):
-        col = index % 3
-        row = index // 3
-        x = x_positions[col]
-        y = y_positions[row]
-
-        svg.append(f'<g>')
-        svg.append(f'<rect x="{x}" y="{y}" width="{card_width}" height="{card_height}" rx="18" fill="#0b1724" stroke="{accent}" stroke-width="1.2" />')
-        svg.append(f'<rect x="{x + 18}" y="{y + 20}" width="60" height="4" rx="2" fill="{accent}" />')
-        svg.append(f'<text x="{x + 18}" y="{y + 52}" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">{escape_xml(title)}</text>')
-        svg.append(f'<text x="{x + 18}" y="{y + 94}" font-size="13" font-family="monospace" fill="#cbd5e1">{escape_xml(stack)}</text>')
-        svg.append(f'<line x1="{x + 18}" y1="{y + 118}" x2="{x + 310}" y2="{y + 118}" stroke="#1e293b" />')
-        svg.append(f'<text x="{x + 18}" y="{y + 148}" font-size="15" font-family="monospace" fill="{accent}">VIEW PROJECT →</text>')
-        svg.append('</g>')
-
-    svg.append('</svg>')
-
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text("\n".join(svg), encoding="utf-8")
-    print(f"Created: {OUTPUT}")
+def main() -> None:
+    icons = load_icons()
+    for project in PROJECTS:
+        write_svg(project["file"], build(project, icons))
 
 
 if __name__ == "__main__":
-    build_svg()
+    main()
