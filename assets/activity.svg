@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="276" viewBox="0 0 1000 276" role="img" aria-labelledby="t d">
 <title id="t">Contribution activity — snake game</title>
-<desc id="d">101 contributions in the last year across 28 active days. An animated snake eats the contribution graph.</desc>
+<desc id="d">103 contributions in the last year across 31 active days. An animated snake eats the contribution graph.</desc>
 <style>
 svg{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
 text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monospace,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
@@ -16,37 +16,37 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 @keyframes lick{0%,60%{opacity:1}61%,100%{opacity:0}}
 </style>
 
-<rect x=".5" y=".5" width="999" height="275" rx="14" fill="#0a0f14" stroke="#17402a"/>
-<path d="M.5 44.5H999.5" stroke="#12261b"/>
+<rect x=".5" y=".5" width="999" height="275" rx="14" fill="#0a0f14" stroke="#194569"/>
+<path d="M.5 44.5H999.5" stroke="#102a43"/>
 <path d="M.5 44.5V15a14.5 14.5 0 0 1 14.5-14.5H985a14.5 14.5 0 0 1 14.5 14.5v29.5z" fill="#0f1720" opacity=".9"/>
 <circle cx="26" cy="23" r="6" fill="#ff5f56"/><circle cx="48" cy="23" r="6" fill="#ffbd2e"/><circle cx="70" cy="23" r="6" fill="#27c93f"/>
 <text x="500.0" y="28" text-anchor="middle" font-size="13" fill="#8b949e">activity_feed.sh</text>
-<text x="976" y="28" text-anchor="end" font-size="12" fill="#4d5966">synced 2026-09-26</text>
-<text x="28" y="74" font-size="14" fill="#00ff41">$</text>
+<text x="976" y="28" text-anchor="end" font-size="12" fill="#4d5966">synced 2026-10-01</text>
+<text x="28" y="74" font-size="14" fill="#00e5ff">$</text>
 <text x="44" y="74" font-size="14" fill="#e6edf3" textLength="229" lengthAdjust="spacing">./snake --eat contributions</text>
-<rect class="blink" x="280" y="61" width="8" height="16" fill="#00ff41"/>
-<text x="972" y="74" font-size="13" text-anchor="end" fill="#8b949e"><tspan fill="#00ff41" font-weight="700">101</tspan> contributions in the last year</text>
+<rect class="blink" x="280" y="61" width="8" height="16" fill="#00e5ff"/>
+<text x="972" y="74" font-size="13" text-anchor="end" fill="#8b949e"><tspan fill="#00e5ff" font-weight="700">103</tspan> contributions in the last year</text>
 <text x="58" y="96" font-size="10.5" fill="#8b949e">Sep</text>
-<text x="160" y="96" font-size="10.5" fill="#8b949e">Nov</text>
-<text x="245" y="96" font-size="10.5" fill="#8b949e">Dec</text>
-<text x="313" y="96" font-size="10.5" fill="#8b949e">Jan</text>
-<text x="381" y="96" font-size="10.5" fill="#8b949e">Feb</text>
-<text x="449" y="96" font-size="10.5" fill="#8b949e">Mar</text>
-<text x="534" y="96" font-size="10.5" fill="#8b949e">Apr</text>
-<text x="602" y="96" font-size="10.5" fill="#8b949e">May</text>
-<text x="687" y="96" font-size="10.5" fill="#8b949e">Jun</text>
-<text x="755" y="96" font-size="10.5" fill="#8b949e">Jul</text>
-<text x="823" y="96" font-size="10.5" fill="#8b949e">Aug</text>
-<text x="908" y="96" font-size="10.5" fill="#8b949e">Sep</text>
+<text x="143" y="96" font-size="10.5" fill="#8b949e">Nov</text>
+<text x="228" y="96" font-size="10.5" fill="#8b949e">Dec</text>
+<text x="296" y="96" font-size="10.5" fill="#8b949e">Jan</text>
+<text x="364" y="96" font-size="10.5" fill="#8b949e">Feb</text>
+<text x="432" y="96" font-size="10.5" fill="#8b949e">Mar</text>
+<text x="517" y="96" font-size="10.5" fill="#8b949e">Apr</text>
+<text x="585" y="96" font-size="10.5" fill="#8b949e">May</text>
+<text x="670" y="96" font-size="10.5" fill="#8b949e">Jun</text>
+<text x="738" y="96" font-size="10.5" fill="#8b949e">Jul</text>
+<text x="806" y="96" font-size="10.5" fill="#8b949e">Aug</text>
+<text x="891" y="96" font-size="10.5" fill="#8b949e">Sep</text>
 <text x="24" y="133" font-size="10" fill="#8b949e">Mon</text>
 <text x="24" y="167" font-size="10" fill="#8b949e">Wed</text>
 <text x="24" y="201" font-size="10" fill="#8b949e">Fri</text>
-<rect x="58" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2025-09-21</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.02832;0.04165;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="58" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="58" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="58" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="58" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="58" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="58" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2025-09-26</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.03894;0.05228;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="58" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="58" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="75" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="75" y="123" width="13" height="13" rx="3" fill="#141b23"/>
@@ -60,35 +60,35 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="92" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="92" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="92" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="92" y="191" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="92" y="191" width="13" height="13" rx="3" fill="#006d32"><title>5 contributions on 2025-10-17</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.06904;0.08237;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="92" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="109" y="191" width="13" height="13" rx="3" fill="#006d32"><title>5 contributions on 2025-10-17</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.07508;0.08841;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="109" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="109" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="126" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="126" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="126" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="126" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="126" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="126" y="191" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="126" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2025-10-31</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.09894;0.11228;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="126" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="143" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="143" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="143" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="143" y="157" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="143" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2025-11-05</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.10962;0.12295;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="143" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="143" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2025-10-31</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.10483;0.11817;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="143" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2025-11-07</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.10535;0.11868;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="143" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="160" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="160" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="160" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="160" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2025-11-05</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.12396;0.13729;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="160" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="160" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="160" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2025-11-07</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.12821;0.14155;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="160" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="160" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="177" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="177" y="123" width="13" height="13" rx="3" fill="#141b23"/>
@@ -96,27 +96,27 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="177" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="177" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="177" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="177" y="208" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="177" y="208" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2025-11-22</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.13312;0.14645;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="194" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="194" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="194" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="194" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="194" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="194" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="194" y="208" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2025-11-22</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.16009;0.17343;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="194" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="211" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="211" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="211" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="211" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="211" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="211" y="191" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="211" y="174" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2025-12-04</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.16729;0.18062;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="211" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2025-12-05</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.16515;0.17849;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="211" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="228" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="228" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="228" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="228" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="228" y="174" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2025-12-04</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.18560;0.19893;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="228" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2025-12-05</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.18772;0.20106;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="228" y="174" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="228" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="228" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="245" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="245" y="123" width="13" height="13" rx="3" fill="#141b23"/>
@@ -173,14 +173,14 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="364" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="364" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="364" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="364" y="208" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="364" y="208" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2026-02-07</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.31039;0.32373;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="381" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="381" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="381" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="381" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="381" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="381" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="381" y="208" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2026-02-07</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.31100;0.32433;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="381" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="398" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="398" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="398" y="140" width="13" height="13" rx="3" fill="#141b23"/>
@@ -190,30 +190,30 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="398" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="415" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="415" y="123" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="415" y="140" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="415" y="140" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-02-24</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.35098;0.36431;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="415" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="415" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="415" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="415" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="432" y="106" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="432" y="123" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="432" y="140" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-02-24</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.35988;0.37322;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="432" y="123" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-03-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.35952;0.37285;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="432" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="432" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="432" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="432" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="432" y="208" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="449" y="106" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="449" y="123" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-03-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.38114;0.39447;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="449" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2026-03-08</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.38515;0.39848;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="449" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="449" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="449" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="449" y="174" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="449" y="174" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-03-12</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.37661;0.38994;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="449" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="449" y="208" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="466" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>4 contributions on 2026-03-08</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.38539;0.39872;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="466" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="466" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="466" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="466" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="466" y="174" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-03-12</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.39389;0.40722;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="466" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="466" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="466" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="483" y="106" width="13" height="13" rx="3" fill="#141b23"/>
@@ -222,30 +222,30 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="483" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="483" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="483" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="483" y="208" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="483" y="208" width="13" height="13" rx="3" fill="#26a641"><title>10 contributions on 2026-03-28</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.40224;0.41557;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="500" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="500" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="500" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="500" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="500" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="500" y="191" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="500" y="208" width="13" height="13" rx="3" fill="#26a641"><title>10 contributions on 2026-03-28</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.42789;0.44123;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="500" y="174" width="13" height="13" rx="3" fill="#006d32"><title>8 contributions on 2026-04-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.42573;0.43907;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="500" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-04-03</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.42787;0.44120;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="500" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="517" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="517" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="517" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="517" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="517" y="174" width="13" height="13" rx="3" fill="#006d32"><title>8 contributions on 2026-04-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.43427;0.44760;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="517" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-04-03</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.43215;0.44548;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="517" y="174" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="517" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="517" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="534" y="106" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="534" y="123" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="534" y="123" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-04-13</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.44923;0.46256;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="534" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="534" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="534" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="534" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="534" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="551" y="106" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="551" y="123" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-04-13</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.47040;0.48374;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="551" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="551" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="551" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="551" y="174" width="13" height="13" rx="3" fill="#141b23"/>
@@ -261,23 +261,23 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="585" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="585" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="585" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="585" y="157" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="585" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-05-06</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.49835;0.51169;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="585" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="585" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="585" y="208" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="602" y="106" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="602" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-05-10</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.50690;0.52023;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="602" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="602" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="602" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-05-06</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.51079;0.52412;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="602" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="602" y="191" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="602" y="157" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="602" y="174" width="13" height="13" rx="3" fill="#006d32"><title>7 contributions on 2026-05-14</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.51544;0.52877;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="602" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-05-15</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.51758;0.53091;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="602" y="208" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="619" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-05-10</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.53204;0.54537;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="619" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="619" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="619" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="619" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="619" y="174" width="13" height="13" rx="3" fill="#006d32"><title>7 contributions on 2026-05-14</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.52354;0.53687;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="619" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>3 contributions on 2026-05-15</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.52141;0.53475;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="619" y="174" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="619" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="619" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="636" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="636" y="123" width="13" height="13" rx="3" fill="#141b23"/>
@@ -318,14 +318,14 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="721" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="721" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="721" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="721" y="174" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="721" y="174" width="13" height="13" rx="3" fill="#006d32"><title>5 contributions on 2026-07-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.61583;0.62916;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="721" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="721" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="738" y="174" width="13" height="13" rx="3" fill="#006d32"><title>5 contributions on 2026-07-02</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.63193;0.64527;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="738" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="738" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="755" y="106" width="13" height="13" rx="3" fill="#141b23"/>
@@ -337,14 +337,14 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="755" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="772" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="772" y="123" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="772" y="140" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="772" y="140" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-07-21</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.66068;0.67401;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="772" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="772" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="772" y="191" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="772" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="789" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="789" y="123" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="789" y="140" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-07-21</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.67657;0.68990;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="789" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="789" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="789" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="789" y="191" width="13" height="13" rx="3" fill="#141b23"/>
@@ -396,38 +396,36 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <rect x="908" y="140" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="908" y="157" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="908" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="908" y="191" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="908" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-09-18</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.78670;0.80003;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
 <rect x="908" y="208" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="925" y="106" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="925" y="123" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="925" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="925" y="157" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="925" y="174" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="925" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-09-18</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.78921;0.80255;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="925" y="208" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="942" y="106" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="942" y="123" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="942" y="140" width="13" height="13" rx="3" fill="#141b23"/>
-<rect x="942" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-23</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.80834;0.82168;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="942" y="174" width="13" height="13" rx="3" fill="#00ff41"><title>18 contributions on 2026-09-24</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.81047;0.82380;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="942" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-25</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.81259;0.82593;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
-<rect x="942" y="208" width="13" height="13" rx="3" fill="#141b23"/>
+<rect x="925" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-23</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.79738;0.81071;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="925" y="174" width="13" height="13" rx="3" fill="#00ff41"><title>18 contributions on 2026-09-24</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.79524;0.80857;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="925" y="191" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-25</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.79310;0.80644;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="925" y="208" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-26</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.79097;0.80430;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="942" y="106" width="13" height="13" rx="3" fill="#0e4429"><title>2 contributions on 2026-09-27</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.80592;0.81925;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="942" y="123" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-28</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.80806;0.82139;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="942" y="140" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-29</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.81019;0.82352;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="942" y="157" width="13" height="13" rx="3" fill="#0e4429"><title>1 contribution on 2026-09-30</title><animate attributeName="opacity" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.81233;0.82566;0.92000;0.95333;1" values="1;1;.08;.08;1;1"/></rect>
+<rect x="942" y="174" width="13" height="13" rx="3" fill="#141b23"/>
 <defs><clipPath id="arena"><rect x="46" y="92" width="934" height="139"/></clipPath>
 <filter id="sglow" x="-5%" y="-20%" width="110%" height="140%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 <g clip-path="url(#arena)"><g filter="url(#sglow)">
-<path d="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 214.5 L1260 214.5" fill="none" stroke="#00ff41" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"
- stroke-dasharray="104 7012" stroke-dashoffset="104"><animate attributeName="stroke-dashoffset" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.86667;1" values="104;-6828.0;-6828.0"/></path>
-<path d="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 214.5 L1260 214.5" fill="none" stroke="#04310f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".75"
- stroke-dasharray="86 7030" stroke-dashoffset="95">
-<animate attributeName="stroke-dashoffset" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.86667;1" values="95;-6837.0;-6837.0"/></path>
+<path d="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 180.5 L1260 180.5" fill="none" stroke="#00e5ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"
+ stroke-dasharray="104 6978" stroke-dashoffset="104"><animate attributeName="stroke-dashoffset" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.86667;1" values="104;-6794.0;-6794.0"/></path>
+<path d="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 180.5 L1260 180.5" fill="none" stroke="#04310f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".75"
+ stroke-dasharray="86 6996" stroke-dashoffset="95">
+<animate attributeName="stroke-dashoffset" dur="30.0s" repeatCount="indefinite" keyTimes="0;0.86667;1" values="95;-6803.0;-6803.0"/></path>
 </g>
 <g>
-<animateMotion dur="30.0s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.85366;1" path="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 214.5 L1260 214.5"/>
+<animateMotion dur="30.0s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.85360;1" path="M-162 112.5 L64.5 112.5 L64.5 214.5 L81.5 214.5 L81.5 112.5 L98.5 112.5 L98.5 214.5 L115.5 214.5 L115.5 112.5 L132.5 112.5 L132.5 214.5 L149.5 214.5 L149.5 112.5 L166.5 112.5 L166.5 214.5 L183.5 214.5 L183.5 112.5 L200.5 112.5 L200.5 214.5 L217.5 214.5 L217.5 112.5 L234.5 112.5 L234.5 214.5 L251.5 214.5 L251.5 112.5 L268.5 112.5 L268.5 214.5 L285.5 214.5 L285.5 112.5 L302.5 112.5 L302.5 214.5 L319.5 214.5 L319.5 112.5 L336.5 112.5 L336.5 214.5 L353.5 214.5 L353.5 112.5 L370.5 112.5 L370.5 214.5 L387.5 214.5 L387.5 112.5 L404.5 112.5 L404.5 214.5 L421.5 214.5 L421.5 112.5 L438.5 112.5 L438.5 214.5 L455.5 214.5 L455.5 112.5 L472.5 112.5 L472.5 214.5 L489.5 214.5 L489.5 112.5 L506.5 112.5 L506.5 214.5 L523.5 214.5 L523.5 112.5 L540.5 112.5 L540.5 214.5 L557.5 214.5 L557.5 112.5 L574.5 112.5 L574.5 214.5 L591.5 214.5 L591.5 112.5 L608.5 112.5 L608.5 214.5 L625.5 214.5 L625.5 112.5 L642.5 112.5 L642.5 214.5 L659.5 214.5 L659.5 112.5 L676.5 112.5 L676.5 214.5 L693.5 214.5 L693.5 112.5 L710.5 112.5 L710.5 214.5 L727.5 214.5 L727.5 112.5 L744.5 112.5 L744.5 214.5 L761.5 214.5 L761.5 112.5 L778.5 112.5 L778.5 214.5 L795.5 214.5 L795.5 112.5 L812.5 112.5 L812.5 214.5 L829.5 214.5 L829.5 112.5 L846.5 112.5 L846.5 214.5 L863.5 214.5 L863.5 112.5 L880.5 112.5 L880.5 214.5 L897.5 214.5 L897.5 112.5 L914.5 112.5 L914.5 214.5 L931.5 214.5 L931.5 112.5 L948.5 112.5 L948.5 180.5 L1260 180.5"/>
 <circle r="6.6" fill="#7dffa0"/>
 <circle cx="2.6" cy="-2.7" r="1.7" fill="#04310f"/><circle cx="2.6" cy="2.7" r="1.7" fill="#04310f"/>
 <path class="lick" d="M6.2 0H10.5M10.5 0l2.6-1.8M10.5 0l2.6 1.8" stroke="#ff7b72" stroke-width="1.3" stroke-linecap="round" fill="none"/>
 </g></g>
-<text x="28" y="259" font-size="12" fill="#8b949e">current streak <tspan fill="#00ff41">3d</tspan> · longest <tspan fill="#00ff41">3d</tspan> · active <tspan fill="#00ff41">28</tspan> of 371 days</text>
+<text x="28" y="259" font-size="12" fill="#8b949e">current streak <tspan fill="#00e5ff">8d</tspan> · longest <tspan fill="#00e5ff">8d</tspan> · active <tspan fill="#00e5ff">31</tspan> of 369 days</text>
 <text x="821" y="259" font-size="11" text-anchor="end" fill="#8b949e">Less</text>
 <rect x="831" y="248" width="13" height="13" rx="3" fill="#141b23"/>
 <rect x="848" y="248" width="13" height="13" rx="3" fill="#0e4429"/>

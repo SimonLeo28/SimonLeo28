@@ -16,13 +16,13 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 @keyframes sweep{0%,100%{transform:translateY(-10px)}50%{transform:translateY(450.5px)}}
 </style>
 
-<rect x=".5" y=".5" width="675" height="551" rx="14" fill="#0a0f14" stroke="#17402a"/>
-<path d="M.5 44.5H675.5" stroke="#12261b"/>
+<rect x=".5" y=".5" width="675" height="551" rx="14" fill="#0a0f14" stroke="#194569"/>
+<path d="M.5 44.5H675.5" stroke="#102a43"/>
 <path d="M.5 44.5V15a14.5 14.5 0 0 1 14.5-14.5H661a14.5 14.5 0 0 1 14.5 14.5v29.5z" fill="#0f1720" opacity=".9"/>
 <circle cx="26" cy="23" r="6" fill="#ff5f56"/><circle cx="48" cy="23" r="6" fill="#ffbd2e"/><circle cx="70" cy="23" r="6" fill="#27c93f"/>
 <text x="338.0" y="28" text-anchor="middle" font-size="13" fill="#8b949e">portrait.ascii</text>
 <text x="652" y="28" text-anchor="end" font-size="12" fill="#4d5966">100x53 · density-ramp render</text>
-<g font-size="8" font-family="ui-monospace,Consolas,monospace" fill="#00ff41" transform="translate(28 74)">
+<g font-size="8" font-family="ui-monospace,Consolas,monospace" fill="#00e5ff" transform="translate(28 74)">
 <text class="row" style="animation-delay:0.35s" x="0" y="8" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="row" style="animation-delay:0.37s" x="0" y="16.5" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="row" style="animation-delay:0.40s" x="0" y="25" fill-opacity="0.90" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
@@ -76,6 +76,6 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <text class="row" style="animation-delay:1.55s" x="0" y="433" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*--.::.+s%%cc*c-:``:==%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="row" style="animation-delay:1.57s" x="0" y="441.5" fill-opacity="0.82" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c==:-:`+s%%c*cc=:``:=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 <text class="row" style="animation-delay:1.60s" x="0" y="450" fill-opacity="0.81" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s==--``*c***+s**:.`:=-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<rect class="sweep" x="0" y="-10" width="620" height="26" fill="#00ff41" opacity=".07"/>
+<rect class="sweep" x="0" y="-10" width="620" height="26" fill="#00e5ff" opacity=".07"/>
 </g>
 </svg>

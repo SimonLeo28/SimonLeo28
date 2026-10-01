@@ -22,7 +22,7 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,ui-monosp
 <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#ff7b72" stop-opacity="0"/><stop offset=".5" stop-color="#ff7b72" stop-opacity=".16"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></linearGradient>
 <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#ff7b72"/><stop offset="1" stop-color="#ff7b72" stop-opacity="0"/></linearGradient>
 </defs>
-<rect x=".5" y=".5" width="479" height="217" rx="12" fill="#0a0f14" stroke="#12261b"/>
+<rect x=".5" y=".5" width="479" height="217" rx="12" fill="#0a0f14" stroke="#102a43"/>
 <g clip-path="url(#card)">
 <rect width="480" height="218" fill="url(#grid)"/>
 <rect y="0" width="90" height="218" fill="url(#sweep)" x="-90"><animate attributeName="x" values="-90;480;480" keyTimes="0;.62;1" dur="6.6s" begin="2.0s" repeatCount="indefinite"/></rect>

@@ -6,6 +6,7 @@
 
 <a href="https://github.com/SimonLeo28"><img src="assets/btn-github.svg" height="46" alt="GitHub profile" /></a>&nbsp;
 <a href="https://github.com/SimonLeo28?tab=repositories"><img src="assets/btn-repos.svg" height="46" alt="Repositories" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/simon-leo-alexander-500983332"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn profile" /></a>&nbsp;
 <img src="assets/badge-open.svg" height="46" alt="Open to opportunities" />
 
 </div>

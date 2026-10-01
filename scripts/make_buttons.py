@@ -35,6 +35,7 @@ def main() -> None:
     icons = load_icons()
     button("btn-github.svg", "> GITHUB", 178, C["green"], icons["github"], "Open GitHub profile")
     button("btn-repos.svg", "> REPOSITORIES", 232, C["blue"], icons["github"], "Browse all repositories")
+    button("btn-linkedin.svg", "> LINKEDIN", 192, C["blue"], None, "LinkedIn profile")
     button("badge-open.svg", "OPEN TO OPPORTUNITIES", 300, C["amber"], None, "Status: open to opportunities")
 
 
