@@ -1,10 +1,6 @@
 {
  "username": "SimonLeo28",
-<<<<<<< HEAD
  "synced": "2026-10-01",
-=======
- "synced": "2026-09-30",
->>>>>>> b89fa0c332337357bc5e344895feff48d53e25b7
  "days": [
   {
    "date": "2025-09-28",
@@ -1843,30 +1839,20 @@
   },
   {
    "date": "2026-09-30",
-<<<<<<< HEAD
    "count": 1,
    "level": 1
   },
   {
    "date": "2026-10-01",
-=======
->>>>>>> b89fa0c332337357bc5e344895feff48d53e25b7
-   "count": 0,
-   "level": 0
+   "count": 2,
+   "level": 1
   }
  ],
  "stats": {
-<<<<<<< HEAD
-  "total": 103,
-  "active_days": 31,
-  "current_streak": 8,
-  "longest_streak": 8,
-=======
-  "total": 102,
-  "active_days": 30,
-  "current_streak": 7,
-  "longest_streak": 7,
->>>>>>> b89fa0c332337357bc5e344895feff48d53e25b7
+  "total": 105,
+  "active_days": 32,
+  "current_streak": 9,
+  "longest_streak": 9,
   "best_day": {
    "date": "2026-09-24",
    "count": 18,
