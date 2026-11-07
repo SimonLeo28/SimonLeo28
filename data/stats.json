@@ -1,6 +1,6 @@
 {
  "username": "SimonLeo28",
- "synced": "2026-11-06",
+ "synced": "2026-11-07",
  "source": "api",
  "repos": 33,
  "followers": 2,
@@ -10,7 +10,7 @@
  "languages": [
   {
    "name": "JavaScript",
-   "count": 15
+   "count": 14
   },
   {
    "name": "TypeScript",
@@ -22,7 +22,7 @@
   },
   {
    "name": "HTML",
-   "count": 3
+   "count": 4
   },
   {
    "name": "EJS",
