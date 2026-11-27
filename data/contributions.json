@@ -1,6 +1,6 @@
 {
  "username": "SimonLeo28",
- "synced": "2026-11-26",
+ "synced": "2026-11-27",
  "days": [
   {
    "date": "2025-11-23",
@@ -1844,15 +1844,20 @@
   },
   {
    "date": "2026-11-26",
-   "count": 1,
+   "count": 2,
    "level": 1
+  },
+  {
+   "date": "2026-11-27",
+   "count": 5,
+   "level": 3
   }
  ],
  "stats": {
-  "total": 231,
-  "active_days": 83,
-  "current_streak": 65,
-  "longest_streak": 65,
+  "total": 237,
+  "active_days": 84,
+  "current_streak": 66,
+  "longest_streak": 66,
   "best_day": {
    "date": "2026-09-24",
    "count": 18,
